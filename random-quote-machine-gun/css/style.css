@@ -1,0 +1,79 @@
+
+body {
+  position: relative;
+  font-family: Nunito , sans-serif;
+  font-weight: 700;
+  background: url("http://wallpapercave.com/wp/tTuFP5q.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.quote-section{
+  position: relative;
+  margin: 9% auto auto auto;
+}
+
+.quote-box {
+  float: none;
+  margin: auto;
+  height: 0 auto;
+  border: 1px solid #737c8c;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 0.2), 0 6px 20px 0 rgba(4, 4, 4, 0.2); 
+  width: 0 auto;
+  padding:40px 50px;
+  word-wrap: break-word;
+}  
+
+.quote-text {
+  font-size: 1.4em;
+  height: auto;
+}
+
+.quote-author { 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.button-list{
+  padding-top: 30px;
+}
+
+.btn-twitter {
+  float:left;
+  font-size:1.4em;
+  height: 41px;
+  box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 0.2), 0 6px 20px 0 rgba(4, 4, 4, 0.2);
+}
+
+#new-quote{
+  font-weight: 700;
+  height:41px;
+  float: right;
+  border-radius: 5px;
+  letter-spacing: 0.4px;
+  box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 0.2), 0 6px 20px 0 rgba(4, 4, 4, 0.2);
+}
+
+.btn-twitter:hover {
+  background: #4099FF;
+}
+
+#new-quote:hover{
+  background: #737c8c;
+}
+
+.btn:hover {
+   transition: .5s ease-in-out;
+   -moz-transition: .5s ease-in-out;
+   -webkit-transition: .5s ease-in-out;
+   border: 1px solid transparent;
+   color: white;
+}
+
+.footer p{
+  font-size: 1.1em;
+  padding-top: 20px;
+  font-style: italic;
+}
