@@ -1,0 +1,36 @@
+body {
+  position: relative;
+  font-family: Nunito , sans-serif;
+  background: url("http://research.noaa.gov/sites/oar/EasyDNNNews/10307/620300c1768EDNmainshutterstock_125312.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.weather {
+   position: relative;
+   margin: 12% auto auto auto;
+}
+
+.center-col{
+    float: none;
+    margin: auto;
+    height: 0 auto;
+    border: 1px solid #737c8c;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 0.2), 0 6px 20px 0 rgba(4, 4, 4, 0.2); 
+    width: 0 auto;
+    padding:30px 20px;
+    word-wrap: break-word;
+    font-size: 35px;
+    color: #394a5e;
+    font-weight: 600;
+}
+
+.temp {
+  cursor:pointer;
+}
+
+.footer p{
+  font-size: 1.1em;
+  padding-top: 10px;
+  font-style: italic;
+}
