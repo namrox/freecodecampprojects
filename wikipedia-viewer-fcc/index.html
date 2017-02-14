@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer FCC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class = "container text-center">
+  <div class = "search-section">
+   <div class = "image">
+              <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png" alt="ME!" title="ME!" id = "myphoto">
+           </div>
+    <h1 class = "title">Wikipedia Viewer</h1>
+    <div class = "input-wrapper">
+  <input id="searchText" type="text" class="search-input" placeholder="Type to search in Wikipedia..." autocomplete="on" />
+      <div class = "btn-list">
+    <button id="search" type="button" class ="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <button id="random" type="button" class ="btn"><a href ="https://en.wikipedia.org/wiki/Special:Random" target="blank"><i class="fa fa-random" aria-hidden="true"></i></a></button>
+      </div>
+  </div>
+</div>
+  <div>
+    <ul class = "search-result" id = "result">
+    </ul>
+  </div>
+  <div class = "footer">
+    <p>created by namrox</p>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
