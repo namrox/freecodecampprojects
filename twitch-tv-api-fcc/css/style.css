@@ -1,0 +1,90 @@
+body {
+  position: relative;
+  font-family: Nunito , sans-serif;
+  background:#d3e2d9;
+}
+
+.fccLink:hover, .fccLink:visited, .fccLink:active {
+  text-decoration: none;
+  pointer:cursor;
+}
+
+.info {
+  padding-top: 30px;
+}
+
+#all:hover {
+  background: #66105d;
+}
+
+#online:hover {
+  background: #2e823f;
+}
+
+#offline:hover{
+  background: #991e26;
+}
+
+.btn:hover {
+   transition: .5s ease-in-out;
+   -moz-transition: .5s ease-in-out;
+   -webkit-transition: .5s ease-in-out;
+   border: 1px solid transparent;
+   color: white;
+}
+
+.channel-info:hover {
+  transition: .3s ease-in-out;
+   -moz-transition: .3s ease-in-out;
+   -webkit-transition: .3s ease-in-out;
+   box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 0.2), 0 6px 20px 0 rgba(4, 4, 4, 0.2); 
+}
+
+.online {
+  margin:20px;
+  padding:20px;
+  border: 2px solid #2e823f;
+}
+
+
+.offline {
+  margin:20px;
+  padding:20px;
+  border: 2px solid #991e26;
+}
+
+.acc-closed {
+  margin:20px;
+  padding:20px;
+  border: 2px solid yellow;
+}
+
+.logo {
+  border-radius: 5px;
+}
+
+#icon {
+  diplay:inline-block;
+}
+
+@media screen and (max-width: 760px) {
+    .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  .info {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+    .logo {
+    padding-top:20px;
+    }
+  
+  .info {
+    padding-top: 25px;
+  }
+}
